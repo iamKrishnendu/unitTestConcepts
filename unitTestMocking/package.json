@@ -1,0 +1,22 @@
+{
+  "name": "unittestmocking",
+  "version": "1.0.0",
+  "description": "To demonstarte the use of mock, Spy, stub in unit test with Mocha",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha './specs/**/*.spec.js'",
+    "coverage": "nyc --reporter=lcov --reporter=text npm run test"
+  },
+  "author": "krishnendu",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^8.2.1",
+    "nyc": "^15.1.0"
+  },
+  "devDependencies": {
+    "sinon": "^9.2.1"
+  }
+
+}
